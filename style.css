@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  float: left;
+}
+.nav-a,
+p, .logo {
+  font-family: "Montserrat", sans-serif;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  margin-top: 3.5%;
+  width: 60rem;
+}
+.nav-ul {
+  float: right;
+}
+.nav-li {
+  display: inline;
+  margin: 10px;
+}
+.nav-a {
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.cover {
+  background: url("/img/mountain-bg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* background-size: cover; */
+  background-position: top;
+  height: 100vh;
+  min-width: 100vw;
+}
+.cover-text {
+  position: absolute;
+  width: 90%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 60rem;
+}
+.cover-text h1 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 1.5;
+  /* color: #221e41; */
+  font-family: "Work Sans", sans-serif;
+}
+.cover-text p {
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 15px;
+  margin-top: 4%;
+}
+section {
+  width: 100%;
+  height: 100%;
+}
+.sec-about {
+  min-height: 90vh;
+  max-height: 100%;
+  width: 40%;
+  margin-left: 25%;
+  border: solid 1px transparent;
+}
+.sec-about h1 {
+  margin-top: 25vh;
+  font-size: 4em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #40094c;
+  margin-bottom: 1%;
+}
+.sec-about p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #717171;
+  line-height: 25px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.sec-prjs {
+  height: auto;
+  background-color: #d000ff0c;
+  padding: 5%;
+}
+
+.prjs-card {
+  margin-top: 10%;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 30% 70%;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+.prjs-content {
+  display: flex;
+  align-items: flex-end;
+}
+
+.prjs-text h1 {
+  color: #40094c;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-bottom: 3%;
+}
+.prjs-text p {
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.prjs-img {
+  background-color: #40094c;
+  padding: 10%;
+}
+.prjs-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* Cellphones================= */
+@media (max-width: 900px) {
+  .cover-text {
+    top: 15%;
+  }
+  .cover-text h1 {
+    width: 93%;
+    font-size: 12vw;
+    font-weight: normal;
+    letter-spacing: 1vw;
+  }
+  .cover-text p {
+    width: 94.5%;
+    font-size: 3.5vw;
+    color: #ffffff;
+    letter-spacing: 0.5vw;
+    line-height: 2em;
+  }
+  .sec-about {
+    width: 90%;
+    margin: auto;
+  }
+  .sec-about h1 {
+    margin-top: 6vh;
+  }
+  .navbar {
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 10px;
+  }
+  .nav-ul {
+    display: none;
+  }
+}
