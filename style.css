@@ -38,7 +38,7 @@ p,
   text-transform: uppercase;
 }
 .cover {
-  background: url("https://odalmer.github.io/Resume/img/mountain-bg.jpg");
+  background: url("img/mountain-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-size: cover; */
