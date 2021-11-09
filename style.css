@@ -12,7 +12,8 @@ body {
   float: left;
 }
 .nav-a,
-p, .logo {
+p,
+.logo {
   font-family: "Montserrat", sans-serif;
 }
 .navbar {
@@ -37,9 +38,9 @@ p, .logo {
   text-transform: uppercase;
 }
 .cover {
-  background: url("/img/mountain-bg.jpg");
+  background: url("img/mountain-bg.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   /* background-size: cover; */
   background-position: top;
   height: 100vh;
@@ -113,7 +114,6 @@ section {
   display: flex;
   align-items: flex-end;
 }
-
 .prjs-text h1 {
   color: #40094c;
   font-family: "Montserrat", sans-serif;
