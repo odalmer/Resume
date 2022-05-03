@@ -275,7 +275,7 @@ i {
 /* Cellphones======================================= */
 @media (max-width: 900px) {
   .cover {
-    background-position: 0vh;
+    background-position: 0px;
   }
 
   .cover-text {
