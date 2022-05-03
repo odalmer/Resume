@@ -1,254 +1,231 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Odalmer Pimentel" />
-    <link rel="icon" type="image/png" href="img/Nerd-Emoji.png" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="fonts.css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Odalmer Pimentel - Web developer</title>
-  </head>
-  <body>
-    <header>
-      <!-- Navbar =============================== -->
-      <nav class="navbar">
-        <h1 class="logo">OP</h1>
-        <ul class="nav-ul">
-          <li class="nav-li">
-            <a class="nav-a" href="">Home</a>
-          </li> 
-          <li class="nav-li">
-            <a class="nav-a" href="">about</a>
-          </li>
-          <li class="nav-li">
-            <a class="nav-a" href="">resume</a>
-          </li>
-          <li class="nav-li">
-            <a class="nav-a" href="">projects</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Odalmer Pimentel" />
+  <link rel="icon" type="image/png" href="img/Nerd-Emoji.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="Projects.css">
 
-    <!-- Landing page or Banner ================= -->
-    <div class="cover">
-      <div class="cover-text">
-        <h1>
-          Hola, soy Odalmer Pimentel. <br />
-          Desarrollador Web.
-        </h1>
-        <p>
-          
-        </p>
+  <title>Odalmer Pimentel - Web developer</title>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar =============================== -->
+    <nav class="navbar">
+      <p class="logo">OP</p>
+      <ul class="nav-ul">
+        <li class="nav-li">
+          <a class="nav-a" href="">Home</a>
+        </li>
+        <li class="nav-li">
+          <a class="nav-a" href="#about">about</a>
+        </li>
+        <li class="nav-li">
+          <a class="nav-a" href="">resume</a>
+        </li>
+        <li class="nav-li">
+          <a class="nav-a" href="">projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Landing page or Banner ================= -->
+  <div class="cover">
+    <div class="cover-text">
+      <h1>
+        Hola, soy Odalmer Pimentel. <br />
+        Desarrollador Web.
+      </h1>
+      <p>
+        Llegar a nuevos mercados, tener mayor visibilidad, profesionalidad y
+        automatizar procesos con las mejores tecnologias del mercado. No te
+        preocupes por eso, yo lo hago por ti.
+      </p>
+    </div>
+  </div>
+
+  <!--About ====================================-->
+  <section class="sec-about" id="about">
+    <h1>Sobre mi.</h1>
+    <p>
+      ¡Hola! soy Odalmer Pimentel Santa, desarrollador web apasionado
+      por la tecnología, la resolución de problemas y el desarrollo de sitios
+      web exitosos. <br />
+      <br />
+      Termine el bachiller en desarrollo y administración de aplicaciones informáticas, actualmente estudiante de la
+      carrera ingeniería en sistemas computacionales. Además de ser autodidacta y aprender sobre las mejores y más
+      modernas tecnologías y mejores
+      prácticas, para diseñar, implementar, optimizar, y desarrollar sitios webs y aplicaciones web exitosas y
+      funcionales.
+
+      <br /><br />
+      En mis mas de 4 años de estudio autodidacta y formal he aprendido muchas cosas, sobre todo de mis errores y el de
+      los demas, de los que me han servido para ser mejor desarrollador y mejor profesional.
+
+      Para mi sería un gusto utilizar mis habilidades para mejorar su empresa, y trabajar en equipo. Saludos cordiales y
+      gracias por su tiempo.
+
+      <br> <br>
+    </p>
+    <button class="cta">
+      <span>Contactame</span>
+      <svg viewBox="0 0 13 10" height="10px" width="15px">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>
+  </section>
+
+  <!-- Skills ========================== -->
+  <section class="sec-skills">
+    <h1>Skills</h1>
+    <div class="skill-cards">
+      <div class="skill-card">
+        <img class="skill-icon" src="img/html.png" alt="html icon" draggable="false" />
+        <p>Html</p>
+      </div>
+      <div class="skill-card">
+        <img class="skill-icon" src="img/css.png" alt="CSS icon" draggable="false" />
+        <p>CSS</p>
+      </div>
+      <div class="skill-card">
+        <img class="skill-icon" src="img/JS.png" alt="JavaScript icon" draggable="false" />
+        <p>JavaScript</p>
+      </div>
+      <!-- HTML -->
+      <div class="skill-card">
+        <img class="skill-icon" src="img/bootstrap.svg" alt="Bootstrap icon" draggable="false" />
+        <p>Bootstrap</p>
+      </div>
+      <div class="skill-card">
+        <img class="skill-icon" src="img/api.png" alt="Api icon" draggable="false" />
+        <p>Api</p>
+      </div>
+      <div class="skill-card">
+        <img class="skill-icon" src="img/php.png" alt="PHP icon" draggable="false" />
+        <p>PHP</p>
+      </div>
+      <div class="skill-card">
+        <img class="skill-icon" src="img/sql.png" alt="SQL icon" draggable="false" />
+        <p>SQL</p>
+      </div>
+      <div class="skill-card">
+        <img class="skill-icon" src="img/git.png" alt="Git icon" draggable="false" />
+        <p>Git</p>
+      </div>
+      <div class="skill-card">
+        <img class="skill-icon" src="img/figma.png" alt="Figma icon" draggable="false" />
+        <p>Figma</p>
+      </div>
+      <div class="skill-card">
+        <img class="skill-icon" src="img/ps.png" alt="Photoshop icon" draggable="false" />
+        <p>Photoshop</p>
+      </div>
+      <div class="skill-card">
+        <img class="skill-icon" src="img/OOP.png" alt="OOP icon" draggable="false" />
+        <p>OOP</p>
+      </div>
+      <div class="skill-card">
+        <img class="skill-icon" src="img/seo.png" alt="SEO icon" draggable="false" />
+        <p>SEO</p>
       </div>
     </div>
+  </section>
 
-    <!--About ====================================-->
-    <section class="sec-about">
-      <h1>About.</h1>
-      <p>
-        ¡Hola! soy Odalmer Pimentel Santa, y soy un desarrollador web apasionado
-        por la tecnología, la resolución de problemas y el desarrollo de sitios
-        web exitosos. <br />
-        <br />
-        Convertir ideas en aplicaciones que puedan ser utilizadas por miles de
-        usuarios, automatizar procesos, y reducir costos. Esas son algunas de
-        las cualidades que me motivan cada día a seguir creando cosas nuevas,
-        aprender de los demás y mejorar cada día.
-
-        <br> <br>
-        Llegar a nuevos mercados, tener mayor visibilidad, profesionalidad y
-          automatizar procesos con las mejores tecnologias del mercado. No te
-          preocupes por eso, yo lo hago por ti.
-      </p>
-    </section>
-
-    <!-- Skills ========================== -->
-    <section class="sec-skills">
-      <h1>Skills</h1>
-      <div class="skill-cards">
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/html.png"
-            alt="html icon"
-            draggable="false"
-          />
-          <p>Html</p>
-        </div>
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/css.png"
-            alt="CSS icon"
-            draggable="false"
-          />
-          <p>CSS</p>
-        </div>
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/JS.png"
-            alt="JavaScript icon"
-            draggable="false"
-          />
-          <p>JavaScript</p>
-        </div>
-        <!-- HTML -->
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/bootstrap.svg"
-            alt="Bootstrap icon"
-            draggable="false"
-          />
-          <p>Bootstrap</p>
-        </div>
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/api.png"
-            alt="Api icon"
-            draggable="false"
-          />
-          <p>Api</p>
-        </div>
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/php.png"
-            alt="PHP icon"
-            draggable="false"
-          />
-          <p>PHP</p>
-        </div>
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/sql.png"
-            alt="SQL icon"
-            draggable="false"
-          />
-          <p>SQL</p>
-        </div>
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/git.png"
-            alt="Git icon"
-            draggable="false"
-          />
-          <p>Git</p>
-        </div>
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/figma.png"
-            alt="Figma icon"
-            draggable="false"
-          />
-          <p>Figma</p>
-        </div>
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/ps.png"
-            alt="Photoshop icon"
-            draggable="false"
-          />
-          <p>Photoshop</p>
-        </div>
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/OOP.png"
-            alt="OOP icon"
-            draggable="false"
-          />
-          <p>OOP</p>
-        </div>
-        <div class="skill-card">
-          <img
-            class="skill-icon"
-            src="img/seo.png"
-            alt="SEO icon"
-            draggable="false"
-          />
-          <p>SEO</p>
-        </div>
-      </div>
-    </section>
-
-    <!--Project ====================================-->
-    <section class="sec-prjs">
-      <div class="prjs-card">
-        <div class="prjs-content">
-          <div class="prjs-text">
-            <h1>JS Calculator.</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              earum veritatis possimus, officiis asperiores incidunt.
-            </p>
-          </div>
-        </div>
-        <div class="prjs-img" style="background-color: red">
-          <img
-            src="img/RelaxfeePNG.PNG"
-            alt="Imagen de proyecto personal relaxfee"
-          />
-        </div>
-      </div>
-      <div class="prjs-card">
-        <div class="prjs-img">
-          <img
-            src="img/JSCalculator.PNG"
-            alt="Imagen de proyecto personal JSCalculator"
-          />
-        </div>
-        <div class="prjs-content">
-          <div class="prjs-text">
-            <h1>JS Calculator.</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              earum veritatis possimus, officiis asperiores incidunt
-              consequuntur adipisci atque cumque, eaque ut nobis delectus
-              cupiditate exercitationem placeat ipsa. Esse, asperiores quas.
-            </p>
+  <!--Project ====================================-->
+  <section class="sec-projects">
+    <h1 class="heading">Proyectos</h1>
+    <div class="gallery-image">
+      <div class="img-box">
+        <img src="https://picsum.photos/350/250?image=444" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Library</p>
+            <p class="opacity-low">Architect Design</p>
           </div>
         </div>
       </div>
-    </section>
+      <div class="img-box">
+        <img src="https://picsum.photos/350/250/?image=232" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Night Sky</p>
+            <p class="opacity-low">Cinematic</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box">
+        <img src="https://picsum.photos/350/250/?image=431" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Tea Talk</p>
+            <p class="opacity-low">Composite</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box">
+        <img src="https://picsum.photos/350/250?image=474" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Road</p>
+            <p class="opacity-low">Landscape</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box">
+        <img src="https://picsum.photos/350/250?image=344" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Sea</p>
+            <p class="opacity-low">Cityscape</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-box">
+        <img src="https://picsum.photos/350/250?image=494" alt="" />
+        <div class="transparent-box">
+          <div class="caption">
+            <p>Vintage</p>
+            <p class="opacity-low">Cinematic</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-      <div class="footer">
-        <div class="footer-container">
-          <div class="col"><h1>Odalmer Pimentel</h1>
+  <footer>
+    <div class="footer">
+      <div class="footer-container">
+        <div class="col">
+          <h1>Odalmer Pimentel</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-          </div>
-          <div class="col">
-            <h1>Social</h1>
-            <a href=""><i class="fab fa-github"></i></a>
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.linkedin.com/in/odalmer-pimentel-516b8a186/"><i class="fab fa-linkedin-in"></i></a>
-          </div>
         </div>
-        <div class="footer-lower">
-          
-          <p>© Copyright 2021. Made by Odalmer Pimentel</p>
+        <div class="col">
+          <h1>Social</h1>
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/odalmer-pimentel-516b8a186/"><i class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
-    </footer>
+      <div class="footer-lower">
 
-    <!-- javascript -->
-  </body>
+        <p>© Copyright 2021. Made by Odalmer Pimentel</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- javascript -->
+
+</body>
+
 </html>
