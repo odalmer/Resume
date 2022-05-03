@@ -275,8 +275,9 @@ i {
 /* Cellphones======================================= */
 @media (max-width: 900px) {
   .cover {
-    background-position: 0;
-    background-attachment:local;
+    background: url("img/mountain-bg_mobile2.jpg");
+    background-position: center;
+    background-attachment: fixed;
   }
 
   .cover-text {
