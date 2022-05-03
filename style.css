@@ -91,7 +91,6 @@ section {
 /* About ============================================= */
 .sec-about {
   min-height: 90vh;
-  max-height: 100%;
   width: 40%;
   margin-left: 25%;
   border: solid 1px transparent;
@@ -300,6 +299,8 @@ i {
   .sec-about {
     width: 90%;
     margin: auto;
+    margin-bottom: 15%;
+    height: auto;
   }
 
   .sec-about h1 {
