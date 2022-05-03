@@ -276,7 +276,6 @@ i {
 @media (max-width: 900px) {
   .cover {
     background-position: 0vh;
-    background-attachment:local;
   }
 
   .cover-text {
