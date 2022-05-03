@@ -277,7 +277,7 @@ i {
   .cover {
     background: url("img/mountain-bg_mobile2.jpg");
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: local;
   }
 
   .cover-text {
